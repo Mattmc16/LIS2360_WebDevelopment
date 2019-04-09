@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document created by Matt McCallum,  3/26/19*/
+
+body {
+	font-family:  Arial, Calibri;
+	font-size: 13px;
+	line-height: 1.6em;
+	color: #000000;
+	background-color: #7A7A7A;
+	padding: 0 40px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #000000;
+}
+h1 {
+	font-size: 23px;
+	padding: 4px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 20px;
+	padding: 10px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #FCCA46;
+}
+h3 {
+	font-size: 17px;
+	letter-spacing: 0.5em;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #EBBC41;
+	padding: 4px 0;
+	font-variant: small-caps;
+	font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #FCCA46 1px;
+}
+td {
+	padding: 6px;
+	border: solid #000000 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #427391;
+	text-align: center;
+	padding: 6px;
+	border: solid #000000 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #233D4D 1px;
+}
+
+img {
+	border: solid #233D4D 1px;
+
+}
+
+iframe {
+	border: solid #579C87 1px;
+	padding: 8px;
+	margin: 8px;
+}
