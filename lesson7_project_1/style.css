@@ -7,7 +7,7 @@ body {
 	line-height: 1.6em;
 	color: #000000;
 	background-color: #7A7A7A;
-	padding: 0 40px;
+	padding: 400 40px;
 }
 
 /* basic text styles ----------------------------  */
@@ -17,7 +17,7 @@ p, li, td {
 }
 h1 {
 	font-size: 23px;
-	padding: 4px 0;
+	padding: 14px 10;
 	font-variant: small-caps;
 	letter-spacing: .5em;
 	line-height: 2em;
@@ -32,7 +32,7 @@ h2 {
 h3 {
 	font-size: 17px;
 	letter-spacing: 0.5em;
-	border-bottom-width: 1px;
+	border-bottom-width: 10px;
 	border-bottom-style: inset;
 	border-bottom-color: #EBBC41;
 	padding: 4px 0;
@@ -58,10 +58,10 @@ a:hover {
 /* list styles ----------------------------- */
 ul li {
 	list-style-image: url(images/star.png);
-	margin-left: 12px;
+	margin-left: 18px;
 }
 ol {
-	margin-left: 14px;
+	margin-left: -25px;
 }
 
 /* table styles -------------------------------------- */
@@ -76,7 +76,7 @@ th {
 	font-weight: bold;
 	background-color: #427391;
 	text-align: center;
-	padding: 6px;
+	padding: 60px;
 	border: solid #000000 1px;
 }
 
@@ -92,6 +92,6 @@ img {
 
 iframe {
 	border: solid #579C87 1px;
-	padding: 8px;
-	margin: 8px;
+	padding: 12px;
+	margin: 15px;
 }
